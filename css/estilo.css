@@ -1,0 +1,40 @@
+
+body{
+    background: linear-gradient(to left, #33ccff 0%, #ffffff 77%);
+}
+.titulo{
+    font-family: "Comic Sans MS";
+    color: orangered;
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+}
+.div{
+    border-radius: 50px;
+    border-width: medium;
+    border-style: solid;
+    border-color:orangered;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.produto {
+    color: rgb(5, 4, 4);
+    font-size: 24px;
+    font-family: 'Comic Sans MS', sans-serif;
+    background: linear-gradient(to left, #ffffff 25%, #ff6600 96%);
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow:         9px 7px 5px rgba(38, 24, 235, 0.77);
+    text-align: center;
+}
+#foto{
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    max-width : auto;
+    max-height : auto;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Cadastrar no Café Starbuzz</title>
+    <meta charset="utf-8">
+    <link href="css/cadastro.css" rel="stylesheet">
+</head>
+
+<body>
+    <center>
+        <table cellpadding="4" cellspacing="4">
+
+            <tr>
+                <th>
+                    <A href="index.html">Home</A>
+                </th>
+                <th>
+                    <a href="capuccino.html">Receitas</a>
+                </th>
+                <th>
+                    <a href="producao.html">Produção</a>
+                </th>
+                <th>
+                    <a href="videos.html">Videos</a>
+                </th>
+                <th>
+                    <a href="localizacao.html">Localização</a>
+                </th>
+                <th>
+                    <a href="cadastro.html">Cadastre-se</a>
+                </th>
+                <th>
+                    <a href="">Fale conosco</a>
+                </th>
+
+
+            </tr>
+        </table>
+
+    </center>
+
+    <center>
+        <h1><img src="images/logo.png" width="110" height="110" align="center">Cadastre-se no Café StarBuzz
+            <sup>&reg;</sup> </h1>
+    </center>
+
+
+
+
+
+    <form method="get" action="teste.php" class="form">
+
+        <div id="Nome">
+            Nome completo:<br>
+            <input type="text" name="nome" required placeholder="Nome Completo">
+            <br>
+
+        </div>
+
+        <br>
+
+        <div id="Data de nascimento">
+            <label>Data de nascimento*:<br>
+                <input type="date" name="datan">
+            </label>
+        </div>
+
+        <br>
+
+        <div id="Email">
+            Email*:<br>
+            <input type="text" name="nome" required placeholder="email">
+            <br>
+
+        </div>
+
+        <br>
+
+        <div>
+            <fieldset class="sexo">
+                <legend>Sexo*:</legend>
+                <input type="radio" name="gene" value="M"> Masculino
+                <input type="radio" name="gene" value="F"> Feminino
+                <input type="radio" name="gene" value="O"> Outro
+            </fieldset>
+            <br>
+        </div>
+
+        <div id="café">
+            Café Preferido*:<br>
+            <select name="cafepreferido"><br>
+                <option value="MC" selected>Misura da Casa</option>
+                <option value="CA">Café Arábico</option>
+                <option value="CP">Capuccino</option>
+                <option value="CH">Chá</option>
+            </select>
+            <br>
+        </div>
+        <br>
+        <div id="vctomacafe">
+
+            <legend>Você toma café...</legend>
+            <input type="checkbox" name="cafe" value="m"> Manhâ
+            <input type="checkbox" name="cafe" value="t">Tarde
+            <input type="checkbox" name="cafe" value="n"> Noite
+
+        </div>
+        <br>
+        <textarea name="cometario" cols="20" rows="7" placeholder="Digite seu comentário">
+        </textarea>
+        <br> Receber novidades por email*:
+        <input type="checkbox" name="receba" value="m">
+        <br>
+
+        <input type="reset">
+        <input type="submit" value="Enviar">
+
+
+    </form>
+
+
+</body>
+
+</html>

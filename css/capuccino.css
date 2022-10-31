@@ -1,0 +1,41 @@
+h1 {
+    color: darkolivegreen;
+    text-align: center;
+}
+
+.imagem {
+    vertical-align: middle;
+    width: 110px;
+    height: 110px;
+}
+
+.imagem:hover {
+    width: 140px;
+    height: 140px;
+}
+
+.adicionais {
+    color: darkorange
+}
+
+.verde {
+    color: white;
+    background-color: green;
+    height: 40px;
+}
+
+#tabela tr:nth-child(even) {
+    background-color: darkgray;
+}
+
+#ultima {
+    background-color: darkorange;
+}
+
+#tabela tr:hover {
+    background-color: aquamarine;
+}
+
+body {
+    background: linear-gradient(to left, #33ccff 0%, #ffffff 77%);
+}
